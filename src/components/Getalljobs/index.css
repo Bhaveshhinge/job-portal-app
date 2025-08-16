@@ -1,0 +1,108 @@
+.jobs-main-cont {
+    width: 90%;
+    padding: 1rem;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.1);
+    /* Slightly see-through */
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    color: rgb(14, 14, 2);
+}
+
+.jobs-main-cont span {
+    display: inline-flex;
+    margin-right: 0.5rem;
+    vertical-align:text-top;
+}
+
+
+.demo {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* padding: 1rem; */
+    margin-right: 1rem;
+    /* border: 1px solid ; */
+
+    & .price {
+        margin: 0 1rem 1rem 0;
+        color: #3ef11a;
+
+        & h3{
+            text-align: center;
+        }
+    }
+}
+
+
+.img-title--section {
+    display: flex;
+
+    /* align-items: center; */
+    /* border: 1px solid rgb(178, 93, 14); */
+    & img {
+        width: 8rem;
+        margin-right: 1rem;
+    } 
+
+    & .title-rateing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    & h2 span{
+    color: #ffc107;
+    }
+    }
+
+}
+
+
+.location-jobtype {
+    display: flex;
+
+    /* padding: 1rem; */
+    & h3 {
+        margin-right: 2rem;
+    }
+}
+
+.description {
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+
+    & h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+.applybtn {
+
+    /* display: flex;
+    justify-content: center; */
+
+    & button {
+        width: 30%;
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 1rem 0;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        /* background-color: #c4103d;
+     */
+        background:#00b894;
+        outline: none;
+        border: none;
+        color: #e4e4e4;
+        box-shadow: 0 0 10px 0px rgba(236, 208, 208, 0.5);
+        transition: background 0.3s ease;
+
+        &:hover {
+         background: #00a383;
+         cursor:pointer;
+        }
+    }
+}
